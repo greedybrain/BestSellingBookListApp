@@ -19,7 +19,6 @@
         li.book_card {
                 width: 250px;
                 cursor: pointer;
-                border: 1px solid red;
                 margin: 0 auto;
         }
 

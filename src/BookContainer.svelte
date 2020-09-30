@@ -76,13 +76,16 @@
         ul.books {
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                margin: 0 auto;
                 gap: 10px;
                 overflow-y: scroll;
-                padding: 20px;
+                width: 95%;
+                text-align: center;
         }
 
         div.result_count {
                 padding: 0 20px;
                 text-align: center;
+                margin-bottom: 20px;
         }
 </style>

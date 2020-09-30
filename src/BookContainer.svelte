@@ -75,9 +75,9 @@
         }
         ul.books {
                 display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
                 margin: 0 auto;
-                gap: 10px;
+                gap: 15px;
                 overflow-y: scroll;
                 width: 95%;
                 text-align: center;

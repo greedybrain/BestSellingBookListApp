@@ -11,20 +11,23 @@
         <h4>{author}</h4>
         <p>{description}</p> -->
         <div class="image">
-                <img width="200px" height="300px" src={bookImage} alt={title}>
+                <img height="350px" src={bookImage} alt={title}>
         </div>
 </li>
 
 <style>
         li.book_card {
-                width: 100%;
+                width: 250px;
                 cursor: pointer;
+                border: 1px solid red;
+                margin: 0 auto;
         }
 
         li.book_card img {
                 -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+                width: 100%;
         }
 
 </style>
